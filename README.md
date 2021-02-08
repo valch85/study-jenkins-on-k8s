@@ -1,5 +1,5 @@
 # study-jenkins-on-k8s
-### repo for all files that will be need to roll out Jenkins with helm3 on microk8s
+### repo with all files and commands that will be need to roll out Jenkins with helm3 on microk8s
 *commands:*
 
 - helm repo add jenkinsci https://charts.jenkins.io
