@@ -4,6 +4,7 @@
 
 - helm repo add jenkinsci https://charts.jenkins.io
 - helm repo update
+- kubectl create namespace jenkins
 - kubectl apply -f pv.yaml
 - kubectl apply -f jenkins-sa.yaml  
 - helm install jenkins -n jenkins -f jenkins-values.yaml jenkinsci/jenkins
